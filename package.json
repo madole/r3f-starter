@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "lint": "eslint"
   },
   "dependencies": {
     "@react-three/drei": "^7.17.1",
@@ -15,6 +16,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.0",
+    "eslint-plugin-react": "^7.26.1",
     "prettier": "^2.4.1",
     "vite": "^2.6.4"
   }
